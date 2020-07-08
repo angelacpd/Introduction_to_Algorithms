@@ -6,6 +6,7 @@
 import numpy as np
 
 
+# Code
 def search_min_value(list_a, len_a):
     min_value = list_a[0]
     counter = 1

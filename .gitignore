@@ -5,3 +5,4 @@ __pycache__/
 *.txt
 MicroG.py
 venv/
+stopped_at.md
