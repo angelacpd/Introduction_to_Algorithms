@@ -1,0 +1,26 @@
+# freeCodeCamp - Python for Data Science
+# Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)
+
+# Search minimum
+
+import numpy as np
+
+
+def search_min_value(list_a, len_a):
+    min_value = list_a[0]
+    counter = 1
+    while counter <= len_a - 1:
+        v = list_a[counter]
+        if v < min_value:
+            min_value = v
+        counter += 1
+    return min_value
+
+
+# Input
+n = 10  # Elements
+A = np.random.randint(low=0, high=50, size=n)
+print(A)
+
+# Output
+print(search_min_value(A, n))
