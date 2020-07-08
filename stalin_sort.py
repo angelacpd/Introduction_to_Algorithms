@@ -6,6 +6,7 @@ import numpy as np
 
 # Code
 def stalin_sort(list_a):
+    len_a = len(list_a)
     the_end = False
     i = 0
     j = i + 1
