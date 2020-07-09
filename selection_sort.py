@@ -15,6 +15,7 @@ def selection_sort(list_a, len_a):
         min_dict = search_min_value(list_a, len_a)
         list_o.append(min_dict['min_value'])
         list_a.pop(min_dict['index'])
+        # del list_a[min_dict['index']]
         len_a = len(list_a)
     return list_o
 

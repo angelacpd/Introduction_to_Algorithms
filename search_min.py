@@ -18,6 +18,7 @@ def search_min_value(list_a, len_a):
             index = counter
         counter += 1
     return {'min_value': min_value, 'index': index}
+    # return min_value, index
 
 
 if __name__ == "__main__":
@@ -29,3 +30,7 @@ if __name__ == "__main__":
 
     # Output
     print(search_min_value(A, n))
+    # min_v, idx = search_min_value(A, n)
+    # print(min_v)
+    # print(idx)
+
